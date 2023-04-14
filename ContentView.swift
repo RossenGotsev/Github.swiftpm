@@ -15,20 +15,20 @@ struct ContentView: View {
             Text("\(answer)")
             
             Button("multiply"){
-                Integer1 * Integer2 == answer
+              answer = Integer1 * Integer2
             }
             .padding()
             Button("divide"){
-                Integer1 / Integer2 == answer
+               answer = Integer1 / Integer2
             }
             .padding()
             
             Button("add"){
-                Integer1 + Integer2 == answer
+                answer = Integer1 + Integer2
             }
             .padding()
             Button("subtract"){
-                Integer1 - Integer2 == answer
+               answer = Integer1 - Integer2 
             }
             .padding()
         }
