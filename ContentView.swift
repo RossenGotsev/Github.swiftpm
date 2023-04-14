@@ -16,6 +16,19 @@ struct ContentView: View {
                 Integer1 * Integer2 = answer
             }
             
+            Button("divide"){
+                
+            }
+            
+            
+            Button("add"){
+                
+            }
+            
+            Button("subtract"){
+                
+            }
+            
         }
     }
 }
