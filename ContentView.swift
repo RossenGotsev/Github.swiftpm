@@ -3,7 +3,7 @@ import SwiftUI
 struct ContentView: View {
     @State var Integer1 = 0
     @State var Integer2 = 0
-  @State var answer = ""
+  @State var answer = 0
     
     var body: some View {
         VStack {
@@ -13,7 +13,7 @@ struct ContentView: View {
             Text("\(answer)")
             
             Button("multiply"){
-                Integer1 * Integer2 = answer
+                Integer1 * Integer2 == answer
             }
             
             Button("divide"){
