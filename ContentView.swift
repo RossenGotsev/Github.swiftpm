@@ -16,6 +16,19 @@ struct ContentView: View {
                 
             }
             
+            Button("divide"){
+                
+            }
+            
+            
+            Button("add"){
+                
+            }
+            
+            Button("subtract"){
+                
+            }
+            
         }
     }
 }
