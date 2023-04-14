@@ -13,7 +13,7 @@ struct ContentView: View {
             Text("\(answer)")
             
             Button("multiply"){
-                
+                Integer1 * Integer2 = answer
             }
             
         }
